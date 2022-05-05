@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+.homeBackground{
+    background-image: url('../../images/homeBackground.png');/*背景图片*/
+
+    background-repeat: no-repeat;/*不平铺*/
+
+    background-size: 100% 100%;
+
+    background-attachment: fixed;
+}
+
+.containerHome {
+  display: flex;
+  flex-direction: column;
+//   justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem 0.5rem;
+}
+
+.profile {
+    padding: 10px;
+    background-color:rgba(0,0,128,0.8);
+    width: 380px;
+    opacity: 0.8;
+    position: absolute;
+    top: 170px;
+    left: 550px;
+}
+
+.profile2 {
+    padding: 10px;
+    background-color:rgba(0,0,128,0.8);
+    width: 345px;
+    opacity: 0.8;
+    position: absolute;
+    top: 170px;
+    left: 1000px;
+}
+
+.totalHome {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    // padding: 1rem;
+    // background-color: rgba(0,0,128,0.8);
+    position: relative;
+    left: -10px;
+}
+
+.homeHome {
+    margin-left: 35px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.welcomeHome{
+    margin-left: 35px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.homeInputLabel {
+    margin-left: 12px;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.homeInput {
+    margin-left: 12px;
+    margin-bottom: 6px;
+    margin-top: -5px; 
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    height:40px;
+    padding: 5px;
+ 
+    width: 300px;
+    border-radius: 10px;
+}
+
+.ttl2{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.homeTitle3{
+    margin-left: 475px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    color: rgb(253, 253, 247);
+    position: absolute;
+    top: 80px;
+}
+
+
+.ff {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+
+
+// a, a:visited {
+//     color: #fff;
+// }
+
+.inpt[type="text"],
+.inpt[type="password"],
+.btn {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  width: 370px;
+}
+
+
+
+.aa{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.btnHome {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  width: 300px;
+}
+
+.btnSubmit {
+    position: relative;
+    top: 8px;
+    margin-left: -17px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    width: 140px;
+}
+
+.btnCancel {
+    position: relative;
+    top: 8px;
+    margin-left: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    width: 140px;
+}
+
+.btnHome {
+  padding: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    font-size: 22px;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: rgb(245, 244, 251);
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: rgb(26, 14, 194);
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}

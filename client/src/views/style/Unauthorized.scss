@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+
+// html {
+//     font-family: 'Nunito', sans-serif;
+//     font-size: 22px;
+//     color: #fff;
+// }
+
+// body {
+//     min-height: 100vh;
+//     background-color: dodgerblue;
+// }
+
+.bd{
+    background-image: url('../../images/login\ background.png');/*背景图片*/
+
+    background-repeat: no-repeat;/*不平铺*/
+
+    background-size: 100% 100%;
+
+    background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem 0.5rem;
+}
+
+.total {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: rgba($color: #000080, $alpha: 0.75);
+}
+
+.ttl{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.ttl2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.ff {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+// a, a:visited {
+//     color: #fff;
+// }
+
+.inpt[type="text"],
+.inpt[type="password"],
+.btn {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.pp{
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.aa{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn {
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    font-size: 22px;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: rgb(44, 249, 8);
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: rgb(252, 80, 13);
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}

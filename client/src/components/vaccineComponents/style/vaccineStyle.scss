@@ -1,0 +1,152 @@
+// @primary-color: #c82c11; // 全局主色
+
+.img1{
+    background-image: url("../../../images/NEUicon.png");
+    background-size: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+.imgSlogan {
+    width: 700px;
+}
+
+.divideBar {
+    background-color: #c82c11;
+    height: 75px;
+}
+
+.navBar {
+    background-color: #c82c11;
+}
+
+.helpBar {
+    background-color: #f6dcd7;
+}
+
+.ready {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    color:white;
+}
+
+.ad1 {
+    height: 320px;
+    filter: alpha(Opacity=60);
+    opacity: 0.6;
+}
+
+.ad1:hover {
+    filter: alpha(Opacity=100);
+    opacity: 1;
+}
+
+
+[data^="blk"] {
+    color: #c82c11;
+}
+
+[data^="bk"] {
+    color: #c82c11;
+}
+
+[data^="help"] {
+    padding: 10px;
+    font-size: 36px;
+    color:#c82c11;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 10px;
+}
+
+[data^="online"] {
+    font-size: 44px;
+    color:#c82c11;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: -70px;
+    left: 600px;
+}
+
+[data^="title1"] {
+    font-weight: bold;
+    font-size: 48px;
+    color:#c82c11;
+    width: 700px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+[data^="title2"] {
+    font-weight: bold;
+    font-size: 16px;
+    color:#c82c11;
+    width: 680px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+}
+
+[data^="title3"] {
+    padding: 50px;
+    font-weight: bold;
+    font-size: 33px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    color:#100907;
+    width: 750px;
+}
+
+[data^="title4"] {
+    // font-weight: bold;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    color:#100907;
+    width: 400px;
+    position: relative;
+    left: 110px;
+    top: -40px;
+}
+
+[data^="title5"] {
+    padding: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    width: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    color:#100907;
+    width: 750px;
+    position: relative;
+    left: 230px;
+}
+
+[data^="title6"] {
+    // font-weight: bold;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    color:#100907;
+    width: 480px;
+    position: relative;
+    left: 265px;
+    top: -50px;
+}
+
+[data^="choose"] {
+    padding: 45px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    position: relative;
+    left: 125px;
+    top: 30px;
+}
+
+[data^="service"] {
+    font-size: 36px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top:-250px;
+}
+
+.site-button-ghost-wrapper {
+    padding: 20px;
+}
